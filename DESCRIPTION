@@ -1,7 +1,7 @@
 Package: sgmm
-Title: What the Package Does (one line, title case)
+Title: Helps users create, identify, and evaluate growth mixture models for time-series data using 'lcmm' as the base package.
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
+Authors@R: person("Noah", "Lorincz-Comi", email = "noah.lorincz-comi@kcl.ac.uk", role = c("aut", "cre"))
 Description: What the package does (one paragraph).
 Depends: R (>= 3.5.1)
 License: What license is it under?
