@@ -16,6 +16,8 @@ m.since <- function(late_date, first_date, format='%d/%m/%Y', to='months') {
     divisor <- 1
   } else if(to == 'weeks') {
     divisor <- 7
+  } else if(to == 'biweekly') {
+    divisor <- 14
   } else if(to == 'months') {
     divisor <- 30
   } else if(to == 'years') {
