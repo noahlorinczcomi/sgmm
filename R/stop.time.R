@@ -33,7 +33,7 @@ stop.time <- function(data, id_name, time_cutoff) {
                          which(colnames(id_df_24) == 'outcomes')]
     
     # add a row at the end with month = 24 and dose = previous dose
-    row_to_add <- c(i, end_dose, 24)
+    row_to_add <- c(i, end_dose, time_cutoff)
     row_to_add <- as.data.frame(t(c(row_to_add)))
     colnames(row_to_add) <- c("id", "outcomes", "months")
     row_to_add <- apply(row_to_add, 2, as.numeric)
