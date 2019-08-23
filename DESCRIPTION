@@ -1,5 +1,5 @@
 Package: sgmm
-Title: Helps users create, identify, and evaluate growth mixture models for time-series data using 'lcmm' as the base package.
+Title: Tools for preparing longitudinal data for analysis and growth mixture modelling using the lcmm package
 Version: 0.0.0.9000
 Authors@R: person("Noah", "Lorincz-Comi", email = "noah.lorincz-comi@kcl.ac.uk", role = c("aut", "cre"))
 Description: What the package does (one paragraph).
